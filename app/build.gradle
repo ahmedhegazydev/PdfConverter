@@ -20,6 +20,7 @@ android {
         }
     }
 
+    //Add the following configuration in order to target Java 8.
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -50,5 +51,14 @@ dependencies {
     implementation 'com.madgag.spongycastle:core:1.58.0.0'
 
     implementation 'com.tom_roush:pdfbox-android:1.8.10.1'
+    implementation 'com.rmtheis:tess-two:5.4.1'
 
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+
+    // For developers using AndroidX in their applications
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+    // For developers using the Android Support Library
+    implementation 'pub.devrel:easypermissions:3.0.0'
 }

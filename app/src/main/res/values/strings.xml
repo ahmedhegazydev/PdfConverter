@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">PdfConverter</string>
     <string name="action_settings">Settings</string>
+
+    <string name="API_KEY">03fc011fe088957</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="call_ocr_api">Call OCR API</string>
+    <string name="ocr_api_result">OCR API Result</string>
+    <string name="storage">Allow access to storgae</string>
 </resources>
